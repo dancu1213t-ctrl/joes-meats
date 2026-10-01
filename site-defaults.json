@@ -1,0 +1,338 @@
+{
+  "products": [
+    {
+      "id": "beef-liver",
+      "name": "Beef Liver",
+      "price": 4.5,
+      "category": "Beef"
+    },
+    {
+      "id": "ground-chuck",
+      "name": "Ground Chuck",
+      "price": 6.5,
+      "category": "Beef"
+    },
+    {
+      "id": "beef-brisket",
+      "name": "Beef Brisket",
+      "price": 6.95,
+      "category": "Beef"
+    },
+    {
+      "id": "stew-beef",
+      "name": "Stew Beef",
+      "price": 7.5,
+      "category": "Beef"
+    },
+    {
+      "id": "shoulder-steak",
+      "name": "Shoulder Steak",
+      "price": 8.5,
+      "category": "Beef"
+    },
+    {
+      "id": "t-bone",
+      "name": "T-Bone",
+      "price": 7.95,
+      "category": "Beef"
+    },
+    {
+      "id": "ground-steak",
+      "name": "Ground Steak",
+      "price": 8.75,
+      "category": "Beef"
+    },
+    {
+      "id": "lean-ground-steak",
+      "name": "Lean Ground Steak",
+      "price": 9,
+      "category": "Beef"
+    },
+    {
+      "id": "sirloin-steak-bone-in",
+      "name": "Sirloin Steak Bone In",
+      "price": 9.5,
+      "category": "Beef"
+    },
+    {
+      "id": "porterhouse-steak",
+      "name": "Porterhouse Steak",
+      "price": 10.75,
+      "category": "Beef"
+    },
+    {
+      "id": "pizza-ham",
+      "name": "Pizza Ham",
+      "price": 4.75,
+      "category": "Cold Cuts"
+    },
+    {
+      "id": "boneless-pork-ham",
+      "name": "Boneless Pork Ham",
+      "price": 4.95,
+      "category": "Cold Cuts"
+    },
+    {
+      "id": "boneless-beef-ham",
+      "name": "Boneless Beef Ham",
+      "price": 4.95,
+      "category": "Cold Cuts"
+    },
+    {
+      "id": "beef-salami",
+      "name": "Beef Salami",
+      "price": 4.95,
+      "category": "Cold Cuts"
+    },
+    {
+      "id": "bacon-rolls-8-oz-",
+      "name": "Bacon Rolls (8 oz)",
+      "price": 4.75,
+      "category": "Cold Cuts"
+    },
+    {
+      "id": "summer-sausage-6-oz-",
+      "name": "Summer Sausage (6 oz)",
+      "price": 5.75,
+      "category": "Cold Cuts"
+    },
+    {
+      "id": "pepperoni",
+      "name": "Pepperoni",
+      "price": 5.75,
+      "category": "Cold Cuts"
+    },
+    {
+      "id": "bacon-ends-8-oz-",
+      "name": "Bacon Ends (8 oz)",
+      "price": 5.75,
+      "category": "Cold Cuts"
+    },
+    {
+      "id": "bacon-butt-8-oz-",
+      "name": "Bacon Butt (8 oz)",
+      "price": 5.75,
+      "category": "Cold Cuts"
+    },
+    {
+      "id": "sliced-bacon",
+      "name": "Sliced Bacon",
+      "price": 7.75,
+      "category": "Cold Cuts"
+    },
+    {
+      "id": "lamb-stew",
+      "name": "Lamb Stew",
+      "price": 7.95,
+      "category": "Lamb"
+    },
+    {
+      "id": "lamb-shoulder",
+      "name": "Lamb Shoulder",
+      "price": 8.95,
+      "category": "Lamb"
+    },
+    {
+      "id": "lamb-ribs",
+      "name": "Lamb Ribs",
+      "price": 8.95,
+      "category": "Lamb"
+    },
+    {
+      "id": "ground-lamb",
+      "name": "Ground Lamb",
+      "price": 10.25,
+      "category": "Lamb"
+    },
+    {
+      "id": "lamb-leg",
+      "name": "Lamb Leg",
+      "price": 10.5,
+      "category": "Lamb"
+    },
+    {
+      "id": "lamb-chops",
+      "name": "Lamb Chops",
+      "price": 14.5,
+      "category": "Lamb"
+    },
+    {
+      "id": "pig-feet",
+      "name": "Pig Feet",
+      "price": 2.75,
+      "category": "Pork"
+    },
+    {
+      "id": "ground-pork",
+      "name": "Ground Pork",
+      "price": 6.5,
+      "category": "Pork"
+    },
+    {
+      "id": "boneless-pork-roast",
+      "name": "Boneless Pork Roast",
+      "price": 7.5,
+      "category": "Pork"
+    },
+    {
+      "id": "lean-ground-pork",
+      "name": "Lean Ground Pork",
+      "price": 6.95,
+      "category": "Pork"
+    },
+    {
+      "id": "baby-back-ribs",
+      "name": "Baby Back Ribs",
+      "price": 11.5,
+      "category": "Pork"
+    },
+    {
+      "id": "turkey-neck",
+      "name": "Turkey Neck",
+      "price": 6.99,
+      "category": "Turkey"
+    },
+    {
+      "id": "turkey-wing",
+      "name": "Turkey Wing",
+      "price": 6.99,
+      "category": "Turkey"
+    },
+    {
+      "id": "smoked-turkey-neck",
+      "name": "Smoked Turkey Neck",
+      "price": 8.5,
+      "category": "Turkey"
+    },
+    {
+      "id": "smoked-turkey-wing",
+      "name": "Smoked Turkey Wing",
+      "price": 8.5,
+      "category": "Turkey"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Beef",
+      "title": "Make it\na beef night.",
+      "slides": [
+        {
+          "src": "assets/hero.jpg",
+          "alt": "Beef serving inspiration"
+        },
+        {
+          "src": "assets/grill.jpg",
+          "alt": "Meat serving inspiration"
+        }
+      ]
+    },
+    {
+      "name": "Cold Cuts",
+      "title": "A little slice\nof happiness.",
+      "slides": [
+        {
+          "src": "assets/coldcuts.jpeg",
+          "alt": "Cold Cuts serving inspiration"
+        },
+        {
+          "src": "assets/grill.jpg",
+          "alt": "Meat serving inspiration"
+        }
+      ]
+    },
+    {
+      "name": "Lamb",
+      "title": "Make room\nfor something special.",
+      "slides": [
+        {
+          "src": "assets/story.jpg",
+          "alt": "Lamb serving inspiration"
+        },
+        {
+          "src": "assets/grill.jpg",
+          "alt": "Meat serving inspiration"
+        }
+      ]
+    },
+    {
+      "name": "Pork",
+      "title": "Big flavour.\nGood company.",
+      "slides": [
+        {
+          "src": "assets/grill.jpg",
+          "alt": "Pork serving inspiration"
+        },
+        {
+          "src": "assets/hero.jpg",
+          "alt": "Meat serving inspiration"
+        }
+      ]
+    },
+    {
+      "name": "Turkey",
+      "title": "Good things\ntake their time.",
+      "slides": [
+        {
+          "src": "assets/story.jpg",
+          "alt": "Turkey serving inspiration"
+        },
+        {
+          "src": "assets/grill.jpg",
+          "alt": "Meat serving inspiration"
+        }
+      ]
+    }
+  ],
+  "homeSlides": [
+    {
+      "src": "assets/hero.jpg",
+      "alt": "Grilled steak with herbs and vegetables"
+    },
+    {
+      "src": "assets/grill.jpg",
+      "alt": "Sliced grilled meat ready to serve"
+    },
+    {
+      "src": "assets/coldcuts.jpeg",
+      "alt": "Cold cuts serving inspiration"
+    }
+  ],
+  "copy": {
+    "announcement": "BELIZEAN MEAT RETAILER & SUPPLIER",
+    "homeEyebrow": "FRESH & PROCESSED MEATS",
+    "homeTitle": "Quality meats.\nGreat value.\nJoe’s Meats LTD.",
+    "homeDescription": "Fresh and processed meats for your home or business. A wide selection at competitive prices, right here in Belize.",
+    "storyTitle": "Belizean meats.\nFor every table.",
+    "storyText": "Joe’s Meats Ltd. is a Belizean meat retailer and supplier serving individual shoppers and commercial customers.\n\nOur range includes beef, pork, chicken, lamb, turkey products, cold cuts, sausages and specialty cuts—all with a focus on variety and competitive pricing.",
+    "storyImage": "assets/story.jpg",
+    "logo": "assets/logo.png",
+    "weekdays": "7:30 AM – 6:00 PM",
+    "sunday": "7:30 AM – 1:00 PM",
+    "facebook": "https://www.facebook.com/joesmeatsltd",
+    "instagram": "https://www.instagram.com/joesmeatsltd",
+    "privacy": "https://www.joesmeats.com/privacy/"
+  },
+  "stores": [
+    {
+      "id": "belize",
+      "name": "Belize City",
+      "address": "28A Central American Boulevard\nBelize City, Belize",
+      "phone": "5012070005",
+      "whatsapp": "5016291048",
+      "email": "orders@joemeat.com",
+      "directions": "https://maps.app.goo.gl/7SUYhuSdUMYCMHmv6",
+      "image": "assets/belize-city-store.png"
+    },
+    {
+      "id": "san-pedro",
+      "name": "San Pedro",
+      "address": "69 Pescador Drive\nSan Pedro, Belize",
+      "phone": "5012266328",
+      "whatsapp": "5016055850",
+      "email": "sales@joemeat.com",
+      "directions": "https://maps.app.goo.gl/ThXd656n4YHrLeed8",
+      "image": "assets/san-pedro.png"
+    }
+  ],
+  "revision": 2
+}

@@ -1,0 +1,8 @@
+private/
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+admin-access.txt
+.DS_Store
