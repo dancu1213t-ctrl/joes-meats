@@ -11,3 +11,6 @@
 .slider-controls button.slide-dot:hover:before{background:white}
 .slider-controls button.slide-dot:focus-visible{outline:2px solid white;outline-offset:-3px}
 @media(max-width:760px){.photo-slider .slider-controls{bottom:9px}}
+
+/* Supplied brand stamp, on white for contrast over every slide. */
+.hero-image .round-stamp{width:clamp(110px,12vw,155px);height:auto;aspect-ratio:1;padding:7px;background:#fff;outline:0;transform:rotate(0);box-shadow:0 6px 22px #0002}.hero-image .round-stamp img{position:static;width:100%;height:100%;object-fit:contain;opacity:1;transform:none;border-radius:0}@media(max-width:700px){.hero-image .round-stamp{width:100px;right:14px;top:14px;padding:5px}}
