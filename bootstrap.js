@@ -1,6 +1,8 @@
 (async()=>{
  const response=await fetch('/api/site',{cache:'no-store'}).catch(()=>null);
- const data=response?.ok?await response.json():await (await fetch('site-defaults.json')).json();
+ let data;
+ if(response?.ok&&response.headers.get('content-type')?.includes('application/json'))data=await response.json();
+ else{try{data=JSON.parse(localStorage.getItem('joes-demo-site-v1'));}catch(e){} if(!data)data=await (await fetch('site-defaults.json')).json();}
  window.SITE_DATA=data;
  const set=(selector,value)=>{const el=document.querySelector(selector);if(el)el.textContent=value;};
  function heading(selector,value){const el=document.querySelector(selector);el.replaceChildren();const lines=value.split('\n');lines.forEach((line,i)=>{const child=document.createElement(i===lines.length-1?'em':'span');child.textContent=line;el.append(child);if(i<lines.length-1)el.append(document.createElement('br'));});}
