@@ -39,7 +39,7 @@ async function api(path,body){
  if(path==='/api/admin/status'&&(!r.ok||!r.headers.get('content-type')?.includes('application/json'))){
   browserDemo=true;
   $('#password').minLength=1;
-  $('#auth-help').textContent='Browser-only demo. Changes are saved on this device, not published for other visitors.';
+  $('#auth-help').textContent='Joes Meats LTD.';
   $('.nav-note').textContent='Demo only: saved edits affect this browser. Reload the website to preview. Clearing browser data removes edits. Export a backup to keep a copy.';
   const banner=document.createElement('p');banner.textContent='Browser demo — this password is not secure access control. Changes stay in this browser only.';banner.style.cssText='padding:12px 18px;background:#fff4dc;color:#654816;border-radius:10px';document.querySelector('main').prepend(banner);
   return demoApi(path,body);
